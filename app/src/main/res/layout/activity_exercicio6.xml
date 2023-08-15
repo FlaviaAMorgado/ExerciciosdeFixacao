@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercicio6">
+
+    <TextView
+        android:id="@+id/txttitle2"
+        android:layout_width="154dp"
+        android:layout_height="37dp"
+        android:text="@string/title"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <EditText
+        android:id="@+id/txtqtd"
+        android:layout_width="352dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/Quantidade"
+        android:inputType="number"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/btncalcular2"
+        android:layout_width="164dp"
+        android:layout_height="62dp"
+        android:text="@string/btncalcular"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/txtresult2"
+        android:layout_width="244dp"
+        android:layout_height="42dp"
+        android:hint="@string/Result"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <RadioGroup
+        android:id="@+id/rbCods"
+        android:layout_width="337dp"
+        android:layout_height="189dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="143dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rbC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <RadioButton
+            android:id="@+id/rbR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/R"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+        <RadioButton
+            android:id="@+id/rbS"
+            android:layout_width="134dp"
+            android:layout_height="53dp"
+            android:text="@string/S"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

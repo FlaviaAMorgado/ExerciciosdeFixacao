@@ -1,0 +1,19 @@
+<resources>
+    // texto tela Main
+    <string name="app_name">Atividade Fixação</string>
+
+    // Texto exercício 6
+    <string name="title">Exercício 6</string>
+    <string name="Quantidade">Digite a quantidade total de produtos</string>
+    // Codigos
+    <string name="C">Cachorro-Quente</string>
+    <string name="R">Refrigerante</string>
+    <string name="S">Suco</string>
+    <string name="Result">O resultado é</string>
+
+    // Botões
+    <string name="btncalcular">Calcular</string>
+    <string name="btnexercico3">Exercício 3</string>
+    <string name="btnexercico6">Exercício 6</string>
+
+</resources>
