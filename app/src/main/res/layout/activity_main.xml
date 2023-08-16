@@ -32,14 +32,14 @@
         android:layout_marginBottom="110dp"
         android:text="@string/btnexercico3"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnentrar2"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntrar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txttilteentrada" />
 
     <Button
-        android:id="@+id/btnentrar2"
+        android:id="@+id/btnEntrar2"
         android:layout_width="185dp"
         android:layout_height="70dp"
         android:layout_marginStart="115dp"

@@ -15,11 +15,14 @@ public class Exercicio6 extends AppCompatActivity {
     // criando strings e variaveis
     String cod;
     RadioGroup rbCods;
+    RadioButton rbC;
+    RadioButton rbR;
+    RadioButton rbS;
     TextView qtd;
     TextView result2;
     Button btncalcular2;
 
-    double qtd2, rs;
+    double qtd2, rs, rsc, rsr, rss;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +30,10 @@ public class Exercicio6 extends AppCompatActivity {
         setContentView(R.layout.activity_exercicio6);
 
         rbCods = findViewById(R.id.rbCods); // instanciando rbCods
+        rbC = findViewById(R.id.rbC); // instanciando rbC
+        rbR = findViewById(R.id.rbR); // instanciando rbR
+        rbS = findViewById(R.id.rbS); // instanciando rbS
+
         qtd = (TextView) findViewById(R.id.txtqtd); // instanciando txtqtd
         btncalcular2 = (Button) findViewById(R.id.btncalcular2); // instanciando btncalcular2
         result2 = (TextView) findViewById(R.id.txtresult2); // instanciando resul2
@@ -34,39 +41,31 @@ public class Exercicio6 extends AppCompatActivity {
         Cods cods = new Cods(); // instanciando obj
 
 
-        // Click do Botão
-        btncalcular2.setOnClickListener (new View.OnClickListener);{
-
-
-        int itemRadioGroupSelecionado = rbCods.getCheckedRadioButtonId();
-
-        if (itemRadioGroupSelecionado != -1){
-
-            //algum RadioButton foi selecionado
-
-            // Regra de negócio
-            RadioButton rbCodSelecioado = findViewById(itemRadioGroupSelecionado);
+        rbCods.setOnCheckedChangeListener((rbCods, checkedId)->{
+            RadioButton get_Cod = findViewById(checkedId);
+            cod = (String) get_Cod.getText();
         }
+    );
 
-            // processamento
-            if(rbCods == "rbC"){
-                qtd2 = Double.parseDouble(qtd.getText().toString()); // pegando e transformando o valor
-                rs = (qtd2 * 2); // fazendo a conta
+        // Click do Botão
+        btncalcular2.setOnClickListener (v-> {
+            qtd2 = Double.parseDouble(qtd.getText().toString()); // pegando e transformando o valor
 
+            // veficando qual cod foi selecionado
+            if (cod == "C") {
+                rs = (qtd2 * 2.00); // fazendo a conta
+                result2.setText(Double.toString(rs)); // passando msg
+
+            }
+                else if (cod == "R") {
+                rs = (qtd2 * 2.50); // fazendo a conta
                 result2.setText(Double.toString(rs)); // passando msg
             }
-                else if(rbCods == "rbR"){
-                    qtd2 = Double.parseDouble(qtd.getText().toString()); // pegando e transformando o valor
-                    rs = (qtd2 * 2.50); // fazendo a conta
+                    else if (cod == "S"){
+                rs = (qtd2 * 1.50); // fazendo a conta
+                result2.setText(Double.toString(rs)); // passando msg
+            }
 
-                    result2.setText(Double.toString(rs)); // passando msg
-                }
-                    else(rbCods == "rbS"){
-                    qtd2 = Double.parseDouble(qtd.getText().toString()); // pegando e transformando o valor
-                    rs = (qtd2 * 1.50); // fazendo a conta
-
-                    result2.setText(Double.toString(rs)); // passando msg
-                         }
-        }
-        };
-    }
+        });
+    };
+}

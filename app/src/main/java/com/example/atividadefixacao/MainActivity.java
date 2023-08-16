@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import java.security.Principal;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-    public void btnentrar2(View view) { // Intent do botão "Exercício 6" para abrir a tela do exercício 6
+    public void btnEntrar2(View view) {
         Intent intent = new Intent(this, Exercicio6.class);
-        startActivity(intent); //
+        startActivity(intent);
     }
 }
