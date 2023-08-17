@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Exercicio3">
 
     <TextView
         android:id="@+id/txttilteentrada"
@@ -16,14 +16,14 @@
         android:layout_marginBottom="130dp"
         android:text="@string/app_name"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnentrar1"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntrar1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnentrar1"
+        android:id="@+id/btnEntrar1"
         android:layout_width="185dp"
         android:layout_height="68dp"
         android:layout_marginStart="115dp"
@@ -51,6 +51,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnentrar1" />
+        app:layout_constraintTop_toBottomOf="@+id/btnEntrar1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

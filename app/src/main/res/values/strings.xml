@@ -15,5 +15,16 @@
     <string name="btncalcular">Calcular</string>
     <string name="btnexercico3">Exercício 3</string>
     <string name="btnexercico6">Exercício 6</string>
+    <string name="btnvoltar">Voltar</string>
 
-</resources>
+    // Exercício 3
+
+        <string name="txtMextra">Número de horas extra em minutos:</string>
+        <string name="txtMfalta">Número de horas falta em minutos:</string>
+        <string name="btncalcular2">VERIFICAR</string>
+        <string name="txtpremio">A gratificação:</string>
+        <string name="txtHextra">A hora extra é:</string>
+        <string name="txtHfalta">A hora falta é:</string>
+        <string name="txttitulo2">VERIFICAÇÃO DE GRATIFICAÇÃO</string>
+        <string name="txttitulo1">EXERCÍCIO 3</string>
+    </resources>

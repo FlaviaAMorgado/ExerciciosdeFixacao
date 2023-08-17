@@ -22,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-    public void btnEntrar2(View view) {
-        Intent intent = new Intent(this, Exercicio6.class);
+    public void btnEntrar1(View view) {
+        Intent intent = new Intent(this, Exercicio3.class);
         startActivity(intent);
     }
+    public void btnEntrar2(View view) {
+        Intent intent = new Intent(this, Exercicio6.class);
+        startActivity(intent);}
 }
