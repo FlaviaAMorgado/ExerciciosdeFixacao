@@ -3,7 +3,7 @@
     <string name="app_name">Atividade Fixação</string>
 
     // Texto exercício 6
-    <string name="title">Exercício 6</string>
+    <string name="title">EXERCÍCIO 6</string>
     <string name="Quantidade">Digite a quantidade total de produtos</string>
     // Codigos
     <string name="C">Cachorro-Quente</string>
@@ -16,6 +16,7 @@
     <string name="btnexercico3">Exercício 3</string>
     <string name="btnexercico6">Exercício 6</string>
     <string name="btnvoltar">Voltar</string>
+    <string name="btnprox">Próximo</string>
 
     // Exercício 3
 

@@ -62,7 +62,7 @@ public class Exercicio6 extends AppCompatActivity {
                 rs = (qtd2 * 2.50); // fazendo a conta
                 result2.setText(Double.toString(rs)); // passando msg
             }
-                    else if (cod == "S"){
+                    else {
                 rs = (qtd2 * 1.50); // fazendo a conta
                 result2.setText(Double.toString(rs)); // passando msg
             }

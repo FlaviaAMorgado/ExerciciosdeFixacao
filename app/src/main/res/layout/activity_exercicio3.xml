@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundo"
+    android:background="@drawable/fundomain"
     tools:context=".Exercicio3">
 
     <TextView
         android:id="@+id/txtHfalta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginEnd="284dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="244dp"
         android:text="@string/txtHfalta"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,12 +23,12 @@
         android:layout_width="162dp"
         android:layout_height="36dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="102dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toEndOf="@+id/txtpremio"
         app:layout_constraintTop_toBottomOf="@+id/btncalcular2" />
 
@@ -41,7 +42,7 @@
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toEndOf="@+id/txtHextra"
         app:layout_constraintTop_toBottomOf="@+id/edtxtpremio" />
 
@@ -50,7 +51,7 @@
         android:layout_width="162dp"
         android:layout_height="36dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="102dp"
         android:ems="10"
         android:inputType="number"
@@ -63,9 +64,10 @@
         android:id="@+id/txtextra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="208dp"
         android:text="@string/txtMextra"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,12 +76,12 @@
         android:layout_width="104dp"
         android:layout_height="37dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="51dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.315"
         app:layout_constraintStart_toEndOf="@+id/txtextra"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -87,12 +89,12 @@
         android:id="@+id/edtxtMfalta"
         android:layout_width="104dp"
         android:layout_height="37dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="51dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/txtMfalta"
         app:layout_constraintTop_toBottomOf="@+id/edtxtMextra" />
 
@@ -100,9 +102,10 @@
         android:id="@+id/txtMfalta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="48dp"
         android:text="@string/txtMfalta"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/txtextra" />
 
@@ -110,9 +113,10 @@
         android:id="@+id/txtpremio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="412dp"
-        android:layout_marginEnd="284dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="236dp"
         android:text="@string/txtpremio"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -120,20 +124,22 @@
         android:id="@+id/txtHextra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="472dp"
-        android:layout_marginEnd="284dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="240dp"
         android:text="@string/txtHextra"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
         android:id="@+id/btncalcular2"
-        android:layout_width="116dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="276dp"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="340dp"
         android:buttonTint="@color/material_dynamic_primary60"
         android:text="@string/btncalcular"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -142,9 +148,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="148dp"
         android:layout_marginEnd="100dp"
         android:text="@string/txttitulo2"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -154,12 +161,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="167dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="164dp"
         android:text="@string/txttitulo1"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnprox"
+        android:layout_width="104dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/btnprox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="272dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

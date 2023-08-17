@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundomain"
     tools:context=".Exercicio6">
 
     <TextView
         android:id="@+id/txttitle2"
-        android:layout_width="154dp"
-        android:layout_height="37dp"
+        android:layout_width="179dp"
+        android:layout_height="34dp"
         android:text="@string/title"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="41dp" />
+        tools:layout_editor_absoluteY="109dp" />
 
     <EditText
         android:id="@+id/txtqtd"
@@ -47,9 +48,8 @@
         android:id="@+id/rbCods"
         android:layout_width="337dp"
         android:layout_height="189dp"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="143dp"
-        >
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="162dp">
 
         <RadioButton
             android:id="@+id/rbC"
